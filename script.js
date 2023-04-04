@@ -4,7 +4,6 @@ export class Animal {
     this.age = age;
   }
   walk() {
-    super.walk();
     console.log(`${this.name} run!`);
   }
   get animalCharacteristic() {
